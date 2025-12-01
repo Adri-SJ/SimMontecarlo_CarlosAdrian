@@ -1,0 +1,40 @@
+### DEPENDENCIAS Y ENTORNOS ###
+# Entorno virtual de Python
+venv/
+.venv/
+env/
+.env/
+
+# Dependencias de Node
+node_modules/
+
+### ARCHIVOS DE PYTHON ###
+# Caché de Pyhton (compilaciones)
+__pycache__/
+*.pyc
+*.pyd
+*.pyo
+*~
+.pytest_cache/
+
+### ARCHIVOS DE JUPYTER/DATOS ###
+# Ignorar los outputs de notebooks de Jupyter (si usas)
+.ipynb_checkpoints
+*.csv
+*.log
+*.sqlite
+/data/
+
+### ARCHIVOS DE FASTAPI/UVICORN ###
+.uvicorn.pid
+
+### ARCHIVOS DE REACT/VITE ###
+# Carpeta de build/producción (la que genera Vercel para el Frontend)
+/frontend/dist/
+/frontend/build/
+/frontend/.vite/
+
+# Archivos de logs y debug
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
