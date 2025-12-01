@@ -7,7 +7,7 @@ import { FaChartLine, FaFlask, FaDollarSign, FaCalculator } from 'react-icons/fa
 import './Montecarlo.css'; 
 
 // Ruta al endpoint modificado en Python
-const API_URL = 'http://localhost:8000/api/simulate'; 
+const API_URL = '/api/simulate'; 
 
 const MontecarloSolver = () => {
     
